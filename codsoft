@@ -1,0 +1,30 @@
+codsoft project 1
+# include<iostream>
+using namespace std;
+int main(){
+double a,b;
+char op;
+
+cout<<"enter a first number"<<endl;
+cin>>a;
+cout<<"enter a second number"<<endl;
+cin>>b;
+
+cout<<"enter a operator to perform"<<endl;
+cin>>op;
+
+switch(op){
+	case'+':
+		cout<<a<<"+"<<b<<"="<<a+b<<endl;
+		break;
+	case'-':
+		cout<<a<<"-"<<b<<"="<<a-b<<endl;
+		break;
+	case'*':
+		cout<<a<<"*"<<b<<"="<<a*b<<endl;
+		break;	
+	case'/':
+		cout<<a<<"/"<<b<<"="<<a/b<<endl;
+		break;	
+}
+}
