@@ -1,2 +1,31 @@
 # CODSOFT
-my first repository
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+
+int main(){
+int num;
+int guess;
+int time=0;
+char attempt=0;
+
+
+num=rand()%100+1;
+	cout<<"A number is genarated between 1 to 100"<<endl;
+	cout<<"can you guess it"<<endl;
+	
+	do{
+		cout<<"enter a guess:"<<endl;
+		cin>>guess;
+		attempt ++;
+		if(guess < num){
+			cout<<"Too low !"<<endl;
+		}else if(guess>num){
+			cout<<"Too high!"<<endl;
+		}
+		else{
+			cout<<"congratulations! you guessed the right number"<<endl;
+		}
+			}while(guess!=num);
+			return 0;
+	}
