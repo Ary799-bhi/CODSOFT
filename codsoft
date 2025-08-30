@@ -1,4 +1,4 @@
-codsoft project 1
+codsoft project 1(Simple Calculator)
 # include<iostream>
 using namespace std;
 int main(){
